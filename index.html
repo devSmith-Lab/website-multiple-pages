@@ -46,8 +46,20 @@
 						</button>
 						<ul class="menu">
 							<li class="menu-item"><a href="index.html">home</a></li>
-							<li class="menu-item"><a href="#">courses</a></li>
-							<li class="menu-item"><a href="#">pages</a></li>
+							<li class="menu-item menu-item-has-children">
+								<a href="#" class="js-toggle-sub-menu">courses <i class="fas fa-chevron-down"></i></a>
+								<ul class="sub-menu js-sub-menu">
+									<li class="sub-menu-item"><a href="pages/courses.html">course</a></li>
+									<li class="sub-menu-item"><a href="pages/course-details.html">course details</a></li>
+								</ul>
+							</li>
+							<li class="menu-item menu-item-has-children">
+								<a href="#" class="js-toggle-sub-menu">pages <i class="fas fa-chevron-down"></i></a>
+								<ul class="sub-menu js-sub-menu">
+									<li class="sub-menu-item"><a href="pages/sign-in.html">sign in</a></li>
+									<li class="sub-menu-item"><a href="pages/sign-up.html">sign up</a></li>
+								</ul>
+							</li>
 							<li class="menu-item"><a href="pages/contact.html">contact</a></li>
 						</ul>
 					</nav>
