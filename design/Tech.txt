@@ -1,0 +1,17 @@
+Demo
+=> https://www.youtube.com/watch?v=4M4hPRvvHhU
+
+Part 1 - Home & Courses Page
+=> https://www.youtube.com/watch?v=eY7qYO7pQSE&t=0s (Currently)
+
+Part 2 - Course Detail
+=> https://www.youtube.com/watch?v=tKvC11zGAwI
+
+Part 3 - Log In, Sign Up & Contact Page
+=> https://www.youtube.com/watch?v=4igs1Wg4gF4
+
+Part 4 - Style Switcher, Theme Colors, Light & Dark and Glass Effect
+=> https://www.youtube.com/watch?v=9NkP7lswK2I
+
+Part 5 - Responsive, Bubble Animation & Page Loader
+=> https://www.youtube.com/watch?v=c1Mct2HCz8c
