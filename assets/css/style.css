@@ -1,6 +1,7 @@
 /* [ -- Master Stylesheet -- ] */
 
 /* :: 1.0 Imported Fonts */
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* :: 1.0 Variables CSS */
 	:root {
@@ -24,6 +25,10 @@
 /* :: 1.0 Animation CSS */
 
 /* :: 1.0 Base CSS */
+	body {
+		background-color: var(--body-bg-color);
+		font-family: 'Poppins', sans-serif;
+	}
 
 /* :: 1.0 Global CSS */
 
