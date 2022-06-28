@@ -60,6 +60,42 @@
 	}
 
 /* :: 1.0 Global CSS */
+	.container {
+		--bs-gutter-x: 15px;
+		max-width: 1140px;
+	}
+
+	.row {
+		--bs-gutter-x: 30px;
+	}
+
+	/* :: Circular IMG */
+		.circular-img {
+			max-width: 360px;
+			margin: auto;
+			position: relative;
+			z-index: 1;
+		}
+
+		.circular-img-inner {
+			text-align: center;
+			border-radius: 0 0 180px 180px;
+			overflow: hidden;
+		}
+
+		.circular-img-circle {
+			height: 360px;
+			width: 360px;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			border-radius: 50%;
+		}
+
+		.circular-img img {
+			position: relative;
+			z-index: 1;
+		}
 
 /* :: 1.0 Header CSS */
 	.header {
@@ -132,6 +168,9 @@
 	.header-hamburger-btn {
 		display: none;
 	}
+
+/* :: 1.0 Banner Section CSS */
+
 
 /* :: 1.0 Responsiveness CSS */
 	@media(min-width:  992px) {
