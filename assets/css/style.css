@@ -470,6 +470,11 @@
 		background-color: var(--green-light);
 	}
 
+/* :: 1.0 Instructor Section CSS */
+	.bai-section .circular-img-circle {
+		background-color: var(--yellow-light);
+	}
+
 /* :: 1.0 Responsiveness CSS */
 	@media(min-width:  992px) {
 		.header .menu-item:hover > .sub-menu {
