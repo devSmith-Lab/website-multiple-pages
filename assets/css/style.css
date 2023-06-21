@@ -475,6 +475,21 @@
 		background-color: var(--yellow-light);
 	}
 
+/* :: 1.0 Breadcrumb CSS */
+	.breadcrumb-nav {
+		padding: 10px 0;
+	}
+
+	.breadcrumb-nav .breadcrumb-item {
+		font-size: 14px;
+		text-transform: capitalize;
+	}
+
+	.breadcrumb-nav .breadcrumb-item + .breadcrumb-item::before,
+	.breadcrumb-nav .breadcrumb-item.active {
+		color: var(--black-70);
+	}
+
 /* :: 1.0 Footer CSS */
 	.footer-top {
 		padding: 50px 0 20px;
