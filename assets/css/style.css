@@ -512,6 +512,23 @@
 		color: var(--WHITE);
 	}
 
+/* :: 1.0 Pagination CSS */
+	.page-item.disabled .page-link,
+	.page-link {
+		border: none;
+		background-color: transparent;
+		color: var(--black-70);
+	}
+
+	.page-item.active .page-link {
+		background-color: var(--main-color);
+	}
+
+	.page-link:hover {
+		background-color: var(--main-color);
+		color: var(--WHITE);
+	}
+
 /* :: 1.0 Footer CSS */
 	.footer-top {
 		padding: 50px 0 20px;

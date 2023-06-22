@@ -2,10 +2,10 @@ Demo
 => https://www.youtube.com/watch?v=4M4hPRvvHhU
 
 Part 1 - Home & Courses Page
-=> https://www.youtube.com/watch?v=eY7qYO7pQSE&t=0s (Currently)
+=> https://www.youtube.com/watch?v=eY7qYO7pQSE&t=0s
 
 Part 2 - Course Detail
-=> https://www.youtube.com/watch?v=tKvC11zGAwI
+=> https://www.youtube.com/watch?v=tKvC11zGAwI (Currently)
 
 Part 3 - Log In, Sign Up & Contact Page
 => https://www.youtube.com/watch?v=4igs1Wg4gF4
