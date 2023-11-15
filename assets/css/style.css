@@ -144,6 +144,40 @@
 			z-index: 1;
 		}
 
+		.form-group {
+			margin-bottom: 25px;
+			position: relative;
+		}
+
+		.form-control {
+			height: 48px;
+			border-color: var(--border-color-1);
+			color: var(--black-90);
+			background-color: transparent;
+		}
+
+
+		.form-control:focus {
+			background-color: transparent;
+			border-color: var(--border-color-1);
+			color: var(--black-90);
+			box-shadow: none;
+		}
+
+		.select-icon {
+			position: absolute;
+			right: 15px;
+			top: 50%;
+			transform: translateY(-50%);
+			pointer-events: none;
+			font-size: 13px;
+		}
+
+		select.form-control:focus option {
+			background-color: var(--select-box-bg-color);
+			
+		}
+
 /* :: 1.0 Header CSS */
 	.header {
 		border-bottom: 1px solid var(--border-color-2);
@@ -456,6 +490,115 @@
 		top: 6px;
 		color: var(--black-70);
 		font-size: 12px;
+	}
+
+	.course-description h4 {
+		font-size: 16px;
+	}
+
+	.course-instructor .img-box img {
+		max-width: 128px;
+		margin-bottom: 15px;
+	}
+
+	.course-instructor h4 {
+		font-size: 16px;
+		text-transform: capitalize;
+		margin-bottom: 10px;
+	}
+
+	.course-instructor h4 span {
+		font-weight: 300;
+	}
+
+	.course-instructor ul li i {
+		color: var(--main-color);
+		margin-right: 5px;
+	}
+
+	.course-instructor ul li:not(:last-child) {
+		margin-bottom: 5px;
+	}
+
+
+	.rating-summary .average-rating {
+		font-size: 40px;
+		font-weight: 700;
+		color: var(--black-90);
+	}
+
+	.rating-summary .average-stars i {
+		color: var(--orange);
+	}
+
+	.rating-summary .rating-bars-item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 8px;
+	}
+
+	.rating-summary .star-text {
+		min-height: 8px;
+		min-width: 45px;
+		color: var(--orange);
+	}
+
+	.rating-summary .progress {
+		height: 8px;
+		background-color: var(--border-color-2);
+		width: calc(100% - 120px);
+		margin-right: 20px;
+		margin-left: 20px;
+		border-radius: 0;
+	}
+
+	.rating-summary .progress-bar {
+		background-color: var(--main-color);
+	}
+
+
+	.review-filter {
+		margin: 0 0 35px;
+		width: 200px;
+	}
+
+
+	.review-item {
+		position: relative;
+		margin-bottom: 30px;
+		padding-left: 65px;
+	}
+
+	.review-item .img-box {
+		max-width: 50px;
+		border-radius: 50%;
+		overflow: hidden;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.review-item h4 {
+		font-size: 16px;
+		font-weight: 500;
+		text-transform: capitalize;
+		margin: 0 0 5px;
+		color: var(--black-90);
+	}
+
+	.review-item .stars-rating i {
+		color: var(--orange);
+		font-size: 14px;
+	}
+
+	.review-item .stars-rating .date {
+		margin-left: 5px;
+		font-size: 14px;
+		display: inline-block;
+	}
+
+	.review-item p {
+		margin: 5px 0 0;
 	}
 
 /* :: 1.0 Testimonial Section CSS */
