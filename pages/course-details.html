@@ -497,13 +497,13 @@
 					<div class="col-lg-4">
 						<!-- [ Course Sidebar ] -->
 						<div class="course-sidebar box">
-							<div class="img-box position-relative">
+							<div class="img-box position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
 								<img src="../assets/img/courses/web-development/3.jpg" class="w-100" alt="course img">
 								<div class="play-icon"><i class="fas fa-play"></i></div>
 								<p class="text-center">Course Previews</p>
 							</div>
 							<div class="price d-flex align-items-center mb-3">
-								<span class="price-old">$100</span>
+								<span class="price-old"><del>$100</del></span>
 								<span class="price-new">$49</span>
 								<span class="price-discount">51% Off</span>
 							</div>
@@ -613,6 +613,25 @@
 		<!-- [ End Footer ] -->
 	</div>
 	<!-- [ End Main Wrapper ] -->
+
+	<!-- [ Couse Preview Modal ] -->
+	<div class="modal fade video-modal js-course-modal js-course-preview-modal" id="video-modal" tabindex="-1" aria-labelledby="previewVideo" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body p-0">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<i class="fas fa-times"></i>
+					</button>
+					<div class="ratio ratio-16x9">
+						<video controls class="js-course-preview-video">
+							<source src="../assets/video/course-preview.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- [ End Couse Preview Modal ] -->
 </body>
 	<!-- [ Bootstrap JS ] -->
 	<script src="../assets/js/bootstrap.bundle.min.js"></script> 
