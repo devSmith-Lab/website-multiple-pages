@@ -73,6 +73,11 @@
 		font-size: 20px
 	}
 
+	textarea.form-control {
+		height: 120px;
+		resize: none;
+	}
+
 	::selection {
 		color: var(--WHITE);
 		background-color: var(--main-color);
@@ -119,6 +124,10 @@
 			width: 100%;
 		}
 
+		.btn-form {
+			height: 48px;
+		}
+
 
 	/* :: Circular IMG */
 		.circular-img {
@@ -146,6 +155,16 @@
 		.circular-img img {
 			position: relative;
 			z-index: 1;
+		}
+
+		.form-title {
+			font-size: 24px;
+			margin: 0 0 30px;
+			font-weight: 600;
+		}
+
+		.form-control::placeholder {
+			color: var(--black-70);
 		}
 
 		.form-group {
@@ -699,6 +718,27 @@
 
 	.video-modal .modal-content {
 		border: 0;
+	}
+
+/* :: 1.0 Contact Section CSS */
+	.contact-item {
+		position: relative;
+		padding-left: 55px;
+		margin-bottom: 40px;
+	}
+
+	.contact-item .icon-box {
+		position: absolute;
+		height: 40px;
+		width: 40px;
+		background-color: var(--main-color);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		left: 0;
+		top: 0;
+		color: var(--WHITE);
 	}
 
 /* :: 1.0 Testimonial Section CSS */
