@@ -11,7 +11,7 @@ Part 3 - Log In, Sign Up & Contact Page
 => https://www.youtube.com/watch?v=4igs1Wg4gF4
 
 Part 4 - Style Switcher, Theme Colors, Light & Dark and Glass Effect
-=> https://www.youtube.com/watch?v=9NkP7lswK2I (Currently)
+=> https://www.youtube.com/watch?v=9NkP7lswK2I
 
 Part 5 - Responsive, Bubble Animation & Page Loader
-=> https://www.youtube.com/watch?v=c1Mct2HCz8c
+=> https://www.youtube.com/watch?v=c1Mct2HCz8c (Currently)
